@@ -1,0 +1,26 @@
+[
+  {
+    "name": "LENOVO V15-IIL 82C5000QHV",
+    "img": "https://github.com/rekalaca/info-tech/blob/master/img/product01.png",
+    "desc": "Processzor / 10. generációs Intel®Core™i7-Operációs rendszer / Windows 10 Pro-Kijelző / 15,6' FHD (1920 x 1080), / 16 GB DDR4 / 512 GB M.2 PCIe SSD/ NVIDIA®GeForce®MX110 2 GB VRAM-Adatátvitel / 802.11 2x2 AC + Bluetooth® 5.0-Méretek / 362,2 mm x 251,5 mm x 19,9 mm (14,25' x 9,9' x 0,78')-Színválaszték / Vasszürke",
+    "price": 1500
+  },
+  {
+    "name": "Xiaomi Redmi Note 8",
+    "img": "https://p1.akcdn.net/full/829364025.xiaomi-redmi-note-8-2021-64gb-4gb-ram-dual.jpg",
+    "desc": "csing csong ding dong telefon",
+    "price": 300
+  },
+  {
+    "name": "Apple Iphone 11",
+    "img": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone11-black-select-2019_GEO_EMEA?wid=834&hei=1000&fmt=jpeg&qlt=95&.v=1567021766023",
+    "desc": "64 gig, black",
+    "price": 1000
+  },
+  {
+    "name": "Razer Deathaddder V2",
+    "img": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_72877842/fee_786_587_png/RAZER-DeathAdder-V2-gamer-optikai-eg%C3%A9r",
+    "desc": "pixart 3389, 50G gyorsulás",
+    "price": 120
+  }
+]

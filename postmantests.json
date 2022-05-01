@@ -1,0 +1,82 @@
+{
+	"info": {
+		"_postman_id": "195de761-729e-4c20-bb30-c5859c0bbd70",
+		"name": "info-tech",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "add a user",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userID\" : 54,\r\n    \"productID\" : 2,\r\n    \"prod_amount\" : 3,\r\n    \"serviceID\" : 2,\r\n    \"date\" : \"2021-01-01\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5555/cart",
+					"host": [
+						"localhost"
+					],
+					"port": "5555",
+					"path": [
+						"cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "search with a keyword",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:5555/search/intel",
+					"host": [
+						"localhost"
+					],
+					"port": "5555",
+					"path": [
+						"search",
+						"intel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login authentication",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"login\" : \"admin\",\r\n    \"password\": \"admin\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5555/login",
+					"host": [
+						"localhost"
+					],
+					"port": "5555",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

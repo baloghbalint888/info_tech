@@ -194,7 +194,7 @@ export default function Header() {
               </div>
             </div>
             {status ? (
-              <h6 className="loginname">Bejelentkezve: {loginName}</h6>
+              <h6 className="loginname">Üdv, {loginName}!</h6>
             ) : (
               ""
             )}
